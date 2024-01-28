@@ -12,7 +12,7 @@ function VideoPage() {
   useEffect(() => {
     (async () => {
       const videoCall = await fetch(
-        `http://localhost:3320/api/videos/${params.id}`,
+        `http://localhost:3310/api/videos/${params.id}`,
         {
           credentials: "include",
           headers: {
